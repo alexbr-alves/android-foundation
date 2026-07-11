@@ -8,16 +8,14 @@ arquivos necessários e ajuste os packages ao projeto de destino.
 
 ## Implementações
 
-- [RxJava](./RxJava): ViewModel, Fragment, estados assíncronos, erros e extensões.
-- [Coroutines](./Coroutines): StateFlow, SharedFlow, viewModelScope e lifecycle.
+- [Compose](./Compose): UDF, StateFlow, eventos, efeitos e componentes de estado.
 
 ## Uso rápido
 
-1. Escolha `RxJava` ou `Coroutines` e copie suas pastas `core` e `extensions`.
+1. Copie `Compose/core`, `Compose/extensions` e os componentes necessários.
 2. Ajuste a declaração `package` dos arquivos.
 3. Adicione as dependências listadas no README da pasta.
-4. Consulte a pasta `examples` da implementação escolhida para conectar
-   Repository, ViewModel e Fragment.
+4. Consulte `Compose/examples` para conectar Repository, ViewModel e tela.
 
 As abstrações são deliberadamente pequenas para que sejam fáceis de explicar,
 adaptar e escrever durante uma entrevista.

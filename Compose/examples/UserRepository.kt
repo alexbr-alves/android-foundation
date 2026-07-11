@@ -1,4 +1,4 @@
-package com.alexbralves.android.coroutines.examples
+package com.alexbralves.android.compose.examples
 
 import kotlinx.coroutines.delay
 
