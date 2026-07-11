@@ -9,6 +9,7 @@ arquivos necessários e ajuste os packages ao projeto de destino.
 ## Implementações
 
 - [RxJava](./RxJava): ViewModel, Fragment, estados assíncronos, erros e extensões.
+- [Coroutines](./Coroutines): StateFlow, SharedFlow, viewModelScope e lifecycle.
 
 ## Uso rápido
 
@@ -19,4 +20,3 @@ arquivos necessários e ajuste os packages ao projeto de destino.
 
 As abstrações são deliberadamente pequenas para que sejam fáceis de explicar,
 adaptar e escrever durante uma entrevista.
-
